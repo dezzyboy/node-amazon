@@ -1,19 +1,19 @@
 {
-  "name": "apac",
+  "name": "node-amazon",
   "description": "Amazon Product Advertising API Client for Node",
   "version": "1.0.0",
-  "author": "Dustin McQuay <dmcquay@gmail.com>",
+  "author": "Kaanon MacFarlane <kaanonm@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dmcquay/node-apac.git"
+    "url": "git://github.com/kaanon/node-amazon.git"
   },
   "bugs": {
-    "url": "http://github.com/dmcquay/node-apac/issues"
+    "url": "http://github.com/kaanon/node-amazon/issues"
   },
   "directories": {
     "lib": "./lib/"
   },
-  "main": "./lib/apac",
+  "main": "index.js",
   "dependencies": {
     "xml2js": ">=0.2.3",
     "request" : ">=2.12.0"
@@ -27,11 +27,12 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/dmcquay/node-apac/raw/master/LICENSE"
+      "url": "http://github.com/kaanon/node-amazon/raw/master/LICENSE"
     }
   ],
   "keywords": [
     "Amazon Product Advertising API",
-    "AWS"
+    "AWS",
+    "Amazon"
   ]
 }
